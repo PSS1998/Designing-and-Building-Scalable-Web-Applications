@@ -1,0 +1,2 @@
+# Shortly
+The aim of the project is to develop 3 identical web apps that allow to shorten URLs by assigning to every submitted URL a unique alias (called UID) that can redirect to the original website. The application is also able to redirect towards random previously-submitted links (given at least 2 unique URLs were submitted). The web server can be chosen between:

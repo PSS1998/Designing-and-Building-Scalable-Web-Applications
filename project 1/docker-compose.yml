@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  shortly-flask:
+    build: ./flask/
+    ports:
+        - "5000:5000"
+  
+  shortly-django:
+    build: ./django/mysite/
+    ports:
+        - "8000:8000"
+  
+  shortly-nodejs:
+    build: ./nodejs/shortly/
+    ports:
+        - "3000:3000"
+

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Welcome to Short.ly</title>
+  </head>
+  <body>
+    <div>
+        <h1>Welcome to Short.ly</h1>
+        <div>
+            <form method="POST" action="/">
+                <input type="text" name="url" id="url" placeholder="Enter URL" autofocus></input>
+                <label for="url">URL</label>
+                <button type="submit">Shorten</button>
+            </form>
+
+            <% if(short_url !== "") { %>
+                <hr>
+                <span><a href="<%=short_url%>" target="_blank"><%=short_url%></a></span>
+            <% }; %>
+        </div>
+    </div>
+
+  </body>
+</html>
